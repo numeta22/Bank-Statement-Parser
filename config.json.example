@@ -1,0 +1,19 @@
+{
+  "parser": {
+    "default_date_format": "%Y-%m-%d",
+    "default_currency": "USD",
+    "skip_header_rows": 0
+  },
+  "analyzer": {
+    "generate_charts": true,
+    "chart_output_dir": "data/processed/charts"
+  },
+  "categorizer": {
+    "custom_categories": {},
+    "case_sensitive": false
+  },
+  "anomaly_detector": {
+    "threshold": 2.5,
+    "method": "zscore"
+  }
+}
