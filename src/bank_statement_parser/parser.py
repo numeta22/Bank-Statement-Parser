@@ -52,7 +52,7 @@ class StatementParser:
         if not filepath.exists():
             raise FileNotFoundError(f"File not found: {filepath}")
         
-        if filepath.suffix not in self.supported_formats:
+        if filepath.suffix.lower() not in self.supported_formats:
             raise ValueError(f"Unsupported format: {filepath.suffix}")
         
         if filepath.suffix == '.csv':

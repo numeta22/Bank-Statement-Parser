@@ -115,7 +115,8 @@ class TransactionCategorizer:
                 }
             
             summary[category]['count'] += 1
-            summary[category]['total_amount'] += transaction.amount or 0.0
+            amount = transaction.amount if transaction.amount is not None else 0.0
+            summary[category]['total_amount'] += amount
         
         # Calculate averages
         for category in summary:
