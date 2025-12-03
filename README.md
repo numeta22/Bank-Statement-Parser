@@ -43,3 +43,16 @@ Payment_Format_Dict = copy['Payment Format'].value_counts().to_dict()
 for i in Payment_Format_Dict.items():
     print(i)
 ```
+
+```python
+object_cols = copy.select_dtypes(include=['object']).columns
+```
+
+```python
+USD = copy.select_dtypes(include='object').copy()
+USD = copy[copy['Receiving Currency'] == 'USD Dollar'.copy()
+```
+```python
+for col in USD.columns:
+    print(col, USD[col].nunique())
+```
