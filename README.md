@@ -1,5 +1,5 @@
 # Bank-Statement-Parser
-Intuitive workflow for loading, iterating, and modeling of IBM's AML (anti money laundering) dataset. Transaction classification , anomaly detection, and financial performance are all areas of interest.
+Robust workflow for loading, iterating, and modeling of IBM's AML (anti money laundering) dataset. Transaction classification, anomaly detection, and financial optimization are all areas of interest.
 
 ```python
 import kagglehub
