@@ -1,8 +1,1 @@
-This folder stores data files used by the project.
-
-Large binary/text data files are tracked with Git LFS.
-Patterns tracked (example):
-- data/Input/*.csv
-- data/Input/*.txt
-
-Do not add large data files directly to Git without using `git lfs track`.
+datasets for project
